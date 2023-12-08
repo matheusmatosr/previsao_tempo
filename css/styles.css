@@ -165,3 +165,11 @@ body {
 #suggestions button:hover {
   opacity: 1;
 }
+
+@media (max-width: 600px) {
+  #suggestions button {
+    width: 45%;
+    min-width: auto;
+    margin: 0.8rem 2.5%;
+  }
+}
